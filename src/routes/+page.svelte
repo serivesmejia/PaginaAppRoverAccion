@@ -7,9 +7,9 @@
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<div class="min-h-screen bg-[#0A0A0A] text-[#E5E5E5] font-sans overflow-x-hidden selection:bg-[#00FF00] selection:text-black">
+<div class="min-h-screen bg-[#F4EBE1] text-[#143E50] font-sans overflow-x-hidden selection:bg-[#37616A] selection:text-white">
   <!-- Subtle Grid Background -->
-  <div class="fixed inset-0 pointer-events-none opacity-20" style="background-image: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px); background-size: 40px 40px;"></div>
+  <div class="fixed inset-0 pointer-events-none opacity-20" style="background-image: linear-gradient(#DABBA1 1px, transparent 1px), linear-gradient(90deg, #DABBA1 1px, transparent 1px); background-size: 40px 40px;"></div>
 
   <div class="relative max-w-5xl mx-auto px-6 py-12 flex flex-col gap-20 animate-fade-in-up">
     <Header />
@@ -30,8 +30,9 @@
   
   :global(body) {
     font-family: 'Inter', sans-serif;
-    background-color: #0A0A0A;
+    background-color: #F4EBE1;
   }
+
   
   :global(.font-mono) {
     font-family: 'IBM Plex Mono', monospace;

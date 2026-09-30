@@ -3,6 +3,7 @@
   import Hero from '$lib/components/Hero.svelte';
   import Mockups from '$lib/components/Mockups.svelte';
   import Features from '$lib/components/Features.svelte';
+  import Testimonials from '$lib/components/Testimonials.svelte';
   import Download from '$lib/components/Download.svelte';
   import Footer from '$lib/components/Footer.svelte';
 </script>
@@ -16,8 +17,9 @@
     <Hero />
     <div class="stagger-1"><Mockups /></div>
     <div class="stagger-2"><Features /></div>
-    <div class="stagger-3"><Download /></div>
-    <div class="stagger-4"><Footer /></div>
+    <div class="stagger-3"><Testimonials /></div>
+    <div class="stagger-4"><Download /></div>
+    <div class="stagger-5"><Footer /></div>
   </div>
 </div>
 
@@ -46,6 +48,7 @@
   .stagger-2 { animation: fadeInUp 1s ease-out 0.4s both; }
   .stagger-3 { animation: fadeInUp 1s ease-out 0.6s both; }
   .stagger-4 { animation: fadeInUp 1s ease-out 0.8s both; }
+  .stagger-5 { animation: fadeInUp 1s ease-out 1.0s both; }
 
   @keyframes fadeInUp {
     from {

@@ -15,5 +15,5 @@
     Descargar APK v1.0
   </a>
   
-  <p class="text-xs text-white/60 font-mono mt-4">Requiere Android 8.0 o superior. Tamaño: ~25MB.</p>
+  <p class="text-xs text-white/60 font-mono mt-4">Requiere Android 8.0 o superior. Tamaño: ~50MB.</p>
 </section>

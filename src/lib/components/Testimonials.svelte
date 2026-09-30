@@ -1,4 +1,4 @@
-<section class="my-20" id="testimonials">
+<section class="w-full" id="testimonials">
   <div class="border-l-4 border-[#F9D5BE] pl-4 mb-10">
     <h2 class="text-3xl font-mono text-[#143E50] font-bold uppercase">Lo que dice la Red</h2>
     <p class="text-[#5D4D73] font-mono text-sm mt-2">/// Testimonios de la comunidad Scout</p>

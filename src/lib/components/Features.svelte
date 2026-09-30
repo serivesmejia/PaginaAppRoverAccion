@@ -1,4 +1,4 @@
-<section id="features" class="my-20">
+<section id="features" class="w-full">
   <div class="border-l-4 border-[#37616A] pl-4 mb-10">
     <h2 class="text-3xl font-mono text-[#143E50] font-bold uppercase">¿Por qué usar RoverAcción?</h2>
     <p class="text-[#5D4D73] font-mono text-sm mt-2">/// Herramientas diseñadas para escalar tu impacto social</p>

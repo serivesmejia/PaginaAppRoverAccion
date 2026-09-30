@@ -1,4 +1,4 @@
-<section id="download" class="my-20 bg-[#37616A] rounded-xl shadow-lg p-10 text-center relative overflow-hidden">
+<section id="download" class="bg-[#37616A] rounded-xl shadow-lg p-10 text-center relative overflow-hidden">
   <!-- Decoraciones esquina -->
   <div class="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 border-[#F9D5BE] rounded-tl-xl"></div>
   <div class="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 border-[#F9D5BE] rounded-br-xl"></div>

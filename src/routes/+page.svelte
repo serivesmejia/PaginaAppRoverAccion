@@ -2,6 +2,7 @@
   import Header from '$lib/components/Header.svelte';
   import Hero from '$lib/components/Hero.svelte';
   import Mockups from '$lib/components/Mockups.svelte';
+  import Showcase from '$lib/components/Showcase.svelte';
   import Features from '$lib/components/Features.svelte';
   import Testimonials from '$lib/components/Testimonials.svelte';
   import Download from '$lib/components/Download.svelte';
@@ -12,14 +13,15 @@
   <!-- Subtle Grid Background -->
   <div class="fixed inset-0 pointer-events-none opacity-20" style="background-image: linear-gradient(#DABBA1 1px, transparent 1px), linear-gradient(90deg, #DABBA1 1px, transparent 1px); background-size: 40px 40px;"></div>
 
-  <div class="relative max-w-5xl mx-auto px-6 py-12 flex flex-col gap-20 animate-fade-in-up">
+  <div class="relative max-w-5xl mx-auto px-6 py-12 flex flex-col gap-24 md:gap-32 animate-fade-in-up">
     <Header />
     <Hero />
     <div class="stagger-1"><Mockups /></div>
-    <div class="stagger-2"><Features /></div>
-    <div class="stagger-3"><Testimonials /></div>
-    <div class="stagger-4"><Download /></div>
-    <div class="stagger-5"><Footer /></div>
+    <div class="stagger-2"><Showcase /></div>
+    <div class="stagger-3"><Features /></div>
+    <div class="stagger-4"><Testimonials /></div>
+    <div class="stagger-5"><Download /></div>
+    <div class="stagger-6"><Footer /></div>
   </div>
 </div>
 
@@ -49,6 +51,7 @@
   .stagger-3 { animation: fadeInUp 1s ease-out 0.6s both; }
   .stagger-4 { animation: fadeInUp 1s ease-out 0.8s both; }
   .stagger-5 { animation: fadeInUp 1s ease-out 1.0s both; }
+  .stagger-6 { animation: fadeInUp 1s ease-out 1.2s both; }
 
   @keyframes fadeInUp {
     from {
